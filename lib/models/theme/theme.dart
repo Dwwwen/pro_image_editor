@@ -116,6 +116,7 @@ class ImageEditorTheme {
     this.adaptiveDialogTheme = const AdaptiveDialogTheme(),
     this.subEditorPage = const SubEditorPageTheme(),
     this.background = imageEditorBackgroundColor,
+    this.bottomBarForegroundColor = const Color(0xFFFFFFFF),
     this.bottomBarBackgroundColor = const Color(0xFF000000),
     this.appBarForegroundColor = const Color(0xFFFFFFFF),
     this.appBarBackgroundColor = const Color(0xFF000000),
@@ -170,13 +171,16 @@ class ImageEditorTheme {
   /// Background color for the image editor in the overview.
   final Color background;
 
+  /// Foreground color for the BottomBar in the overview.
+  final Color bottomBarForegroundColor;
+
   /// Background color for the BottomBar in the overview.
   final Color bottomBarBackgroundColor;
 
   /// Background color for the AppBar in the overview.
   final Color appBarBackgroundColor;
 
-  /// Background color for the AppBar in the overview.
+  /// Foreground color for the AppBar in the overview.
   final Color appBarForegroundColor;
 
   /// Theme for the loading dialog.

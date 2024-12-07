@@ -2237,7 +2237,8 @@ class ProImageEditorState extends State<ProImageEditor>
   }
 
   Widget? _buildBottomNavBar() {
-    var bottomTextStyle = const TextStyle(fontSize: 10.0, color: Colors.white);
+    var bottomTextStyle = TextStyle(
+        fontSize: 10.0, color: imageEditorTheme.bottomBarForegroundColor);
     double bottomIconSize = 22.0;
 
     if (customWidgets.mainEditor.bottomBar != null) {
@@ -2292,7 +2293,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.paintingEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openPaintingEditor,
                                   ),
@@ -2305,7 +2307,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.textEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openTextEditor,
                                   ),
@@ -2320,7 +2323,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.cropRotateEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openCropRotateEditor,
                                   ),
@@ -2333,7 +2337,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.tuneEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openTuneEditor,
                                   ),
@@ -2348,7 +2353,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.filterEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openFilterEditor,
                                   ),
@@ -2361,7 +2367,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.blurEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openBlurEditor,
                                   ),
@@ -2376,7 +2383,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.emojiEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openEmojiEditor,
                                   ),
@@ -2391,7 +2399,8 @@ class ProImageEditorState extends State<ProImageEditor>
                                     icon: Icon(
                                       icons.stickerEditor.bottomNavBar,
                                       size: bottomIconSize,
-                                      color: Colors.white,
+                                      color: imageEditorTheme
+                                          .bottomBarForegroundColor,
                                     ),
                                     onPressed: openStickerEditor,
                                   ),
